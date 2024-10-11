@@ -1,17 +1,17 @@
 const numbers = [1, 2, 3, 4, 5];
 const objects = [{ name: 'John', age: 20 }, { name: 'Jim', age: 25 }, { name: 'Jack', age: 22 }, { name: 'Mark', age: 28 }];
 
-// const objectWithLength = objects.map((object) => {
-//   object.length = object.name.length;
-//   return object;
+// const nameList = objects.map((object) => {
+//   return object.name;
 // });
 
 // const doubleNumbers = numbers.map((number) => {
 //   return number * 2;
 // });
 
-// const nameList = objects.map((object) => {
-//   return object.name;
+// const objectWithLength = objects.map((object) => {
+//   object.length = object.name.length;
+//   return object;
 // });
 
 // numbers.filter((number) => {
