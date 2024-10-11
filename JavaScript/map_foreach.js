@@ -14,6 +14,17 @@ const objects = [{ name: 'John', age: 20 }, { name: 'Jim', age: 25 }, { name: 'J
 //   return object;
 // });
 
+// const items = ["item1", "item2", "item3"];
+// const copyItems = [];
+
+// for (let i = 0; i < items.length; i++) {
+//   copyItems.push(items[i]);
+// }
+
+// items.forEach((item) => {
+//   copyItems.push(item);
+// });
+
 // numbers.filter((number) => {
 //   return number % 2 === 0;
 // }).forEach((number) => {
@@ -36,3 +47,31 @@ const objects = [{ name: 'John', age: 20 }, { name: 'Jim', age: 25 }, { name: 'J
 //   return `${object.name} is ${object.age} years old.`;
 // });
 // console.log(messages);
+
+
+// const products = [
+//   { name: "backpack" },
+//   { name: "shoes" },
+//   { name: "shirt" },
+// ];
+
+// // This is not recommended if you are not returning a new array
+// products.map((product) => {
+//   product.price = 100;
+// });
+
+// console.log(products);
+
+// // This is the recommended way to update the original array
+// products.forEach((product) => {
+//   product.price = 100;
+// });
+
+// console.log(products);
+
+// // If you want to create a new array with the updated price
+// const productsWithPrice = products.map((product) => {
+//   return { ...product, price: 100 };
+// });
+
+// console.log(productsWithPrice);
